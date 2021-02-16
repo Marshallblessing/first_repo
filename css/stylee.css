@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(10, 10, 10, 0.76);
+}
+h1 {
+    color: indigo;
+}
+blockquote {
+    border: 1px solid white;
+    text-align: center;
+    margin-left: 5px;
+}
+.article {
+    background-color: chocolate;
+    min-width: 600px;
+    width: 80%;
+    margin: auto;
+    height: 600px;
+        /* overflow: hidden; Useful for spaces inbetween sections */
+}
+.content, aside {
+    height: 350px;
+}
+.content {
+    background-color: lightseagreen;
+    float: left;
+    width: 75%;
+}
+aside {
+    background-color: hotpink;
+    float: left;
+    width: 25%;
+}
+aside li {   
+    padding-right: 10px;
+    list-style: none;
+    display: inline;
+    text-align: left;
+}
+aside ul {
+    padding-left: 0px;
+}
+
+/* footer { */
+    /* clear: both; Useful for spaces inbetween sections  */
+/* } */
+
+aside a {
+    text-decoration: none;
+    color: #f7f7f7;
+    opacity: 85%;
+}
+aside a:hover {
+    color: mediumblue;
+}
+aside h3 {
+    color: darkslateblue;
+}
+footer {
+    color: maroon;
+}

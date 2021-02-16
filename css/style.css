@@ -1,0 +1,91 @@
+a {
+    color: aqua; 
+    text-decoration: none;
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serifx;
+    font-size: 50px;
+    color: rgb(241, 241, 248);
+    background: url(/images/trees.png); 
+    /* type no-repeat when you don't want duplicate images, especially for logos*/
+    height: 80px;
+    /* text-indent: -99999px; when you want the text to not be seen */
+    text-align: center;
+    letter-spacing: 10px;
+    margin-top: 5px;
+}
+h2 {
+    text-shadow: 0px -2px 0px black;
+}
+
+.para {
+    background-color: #efefef;
+    margin: 1px;
+    width: 60%;
+    margin-top: 0px;
+    position: relative;
+     
+    /* float: right; */
+}
+
+.box {
+    width: 200px;
+    height: 100px;
+    background-color: darkorange; 
+    position: relative;
+    top: -700px;
+    left: 100%;
+    /* bottom: 0%; */
+}
+
+form {
+    border: 1px solid black;
+    width: 30%;
+    background-color: rgb(138, 162, 163);
+    position: absolute;
+    left: 74%;
+    top: 0.5%;
+    float: right;
+}
+
+img {
+    width: 150px;
+    border-radius: 50px;
+    float: left;
+    padding-right: 20px;
+}
+body {
+    background-color: white;
+    margin: 0px;
+    margin-top: 0px;
+}
+#head {
+    color: darkmagenta;
+}
+.para li:nth-child(1) {
+    color: red;
+}
+.para ul:last-of-type li:nth-last-child(1) {
+    color: royalblue;
+}
+
+form li {
+    list-style: none;
+    margin-bottom: 20px;
+}
+label {
+    display: block;
+    cursor: pointer;
+    color: #292929;
+    font-family: sans-serif;
+    padding-bottom: 5px;
+}
+form ul {
+    padding-left: 5px;
+}
+textarea {
+    width: 300px;
+    height: 200px;
+}
+
+ 
